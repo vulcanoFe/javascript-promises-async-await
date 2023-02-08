@@ -76,7 +76,7 @@ getBooksOrMoviesAsync()
   });
 
 const timer1 = setTimeout(() => {
-  console.log("Timer 1 has finished")
+  console.log("timer 1 has finished")
 }, 3000);
 
 const timer2 = setTimeout(() => {
