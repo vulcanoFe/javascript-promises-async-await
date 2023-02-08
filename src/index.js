@@ -71,6 +71,6 @@ getBooksOrMoviesAsync()
       results
     });
   })
-  .catch(error =>
-    console.error("Error in getBooksOrMoviesAsync execution", error)
-  );
+  .catch(error => {
+    console.error("Error in getBooksOrMoviesAsync execution", error);
+  });
